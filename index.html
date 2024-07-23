@@ -1,40 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>HBD</title>
+    <title>Game Tebak Angka</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="card">
-        <div class="imgBox">
-            <div class="bark"></div>
-            <img src="https://image.ibb.co/fYzTrb/lastofus.jpg">
-        </div>
-        <div class="details">
-            <h4 class="color1">SURAT FOR ANDINI</h4>
-            <h4 class="color2">(HAPPY BIRTHDAY)</h4>
-            <p>Hai,Andini </p>
-            <p>Happy birthday  </p>
-            <p>Tahun ini kamu bertambah satu tahun,</p>
-            <p>dan jatah hidup You berkurang satu tahun</p>
-            <p>Sekarang  kamu makin dewasa,dan semakin</p>
-            <p>banyak juga rintangan nya,but its okay</p>
-            <p>karna msih bnyak orng yng syng sama kmu</p>
-
-            <p>jan lupain aku ya:)</p>
-            <p class="text-right">Congrats Repeat Year, Andini!</p>
-            <p class="text-right">love andini</p>
-        </div>
-        </div>
+    <div class="container">
+        <h1>Game Tebak Angka</h1>
+        <p>Tebak angka antara 1 dan 100:</p>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Tebak</button>
+        <p id="result"></p>
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>
